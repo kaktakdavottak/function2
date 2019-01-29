@@ -1,3 +1,6 @@
+from utils.mycontextmanager import TimeDelta
+from utils.mygenerator import my_iter
+
 
 def adv_print(*args, start='', sep='\n', max_line=6, in_file=False):
 
@@ -18,6 +21,10 @@ def adv_print(*args, start='', sep='\n', max_line=6, in_file=False):
             if in_file:
                 with open('file.txt', 'a', encoding='utf-8') as f:
                     f.write(result)
+    for item in my_iter('C:\\Users\\semen\\Documents\\GitHub\\function2\\file.txt'):
+        print(item)
 
 
-adv_print('1234567891', '123456789', '123456789', sep='\n', start='new', max_line=10, in_file=True)
+if __name__ == '__main__':
+    with TimeDelta():
+        adv_print('1234567891', '123456789', '123456789', sep='\n', start='new', max_line=10, in_file=True)

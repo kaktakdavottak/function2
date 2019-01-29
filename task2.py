@@ -1,6 +1,9 @@
+from utils.mydecorator import log_writer_with_path
+
 
 class Contact:
 
+    @log_writer_with_path('C:\\Users\\semen\\Documents\\GitHub\\function2')
     def __init__(self, name, surname, number, favorites=False, **kwargs):
         self.name = name
         self.surname = surname
