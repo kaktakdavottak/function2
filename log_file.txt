@@ -1,0 +1,6 @@
+2019-01-29 22:58:43.573973 __init__ (<__main__.Contact object at 0x0191D610>, 'Jhon', 'Smith', '+71234567809') {'telegram': '@jhony', 'email': 'jhony@smith.com'} None
+2019-01-29 22:58:43.601899 __init__ (<__main__.Contact object at 0x0191D3B0>, 'Sem', 'Smith', '+73535353454') {'favorites': True, 'telegram': '@sem', 'email': 'sem@smith.com'} None
+2019-01-29 22:58:43.602897 __init__ (<__main__.Contact object at 0x0191D3D0>, 'Den', 'Adams', '+1') {} None
+2019-01-29 22:59:53.529669 __init__ (<__main__.Contact object at 0x0093D570>, 'Jhon', 'Smith', '+71234567809') {'telegram': '@jhony', 'email': 'jhony@smith.com'} None
+2019-01-29 22:59:53.556598 __init__ (<__main__.Contact object at 0x0093D510>, 'Sem', 'Smith', '+73535353454') {'favorites': True, 'telegram': '@sem', 'email': 'sem@smith.com'} None
+2019-01-29 22:59:53.556598 __init__ (<__main__.Contact object at 0x0093D530>, 'Den', 'Adams', '+1') {} None
